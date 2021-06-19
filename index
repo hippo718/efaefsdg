@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width">
-    <title>hippo</title>
+    <style>
+    h1{
+      color:red;
+      text-align: center;
+    }
+    body{   
+    background-color:#ccffff;
+    }
+    a{
+    text-decoration:none;
+    color:black;
+    cursor:auto;
+    }
+    </style>
+    <script>
+    function clearScr(){
+      document.getElementById("clear").style.display='none';
+      document.location.href="http://songdo.icehs.kr/main.do";
+    }
+    </script>
   </head>
-<style>
-h1{
- text-align: center;
- font-weight:bold;
-}
-.red{
-  color:red
-}
-img:hover { 
-  position: relative;
-  bottom: 500px;
-}
-img{
-   border-radius:25px;
-}
-</style>
   <body>
-    <h1> 화성가기 프로젝트</h1>
-    <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+    <h1> 탈출 게임 </h1>
+    <div id="clear">
+    <p>12510481018619</br>8998798798471278173</br>8798127375982173192738172371</br>237789127317398<a href="javascript:clearScr();">719837198</a>2750234171974913</br>1667857187316268</p></div>
 
-    <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/D42F/production/_116391345_tes1.png" class="modve" width="300" height="200">
-    <br>
-   <p class="red"><a href="https://ko.wikipedia.org/wiki/%ED%99%94%EC%84%B1%EC%8B%9C">화성 갈꺼니까~</a></p> 
+<p id="demo" style="display:none">719837198</p>
 
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+ 
   </body>
 </html>
